@@ -29,6 +29,11 @@ nav li {
     cursor: pointer;
 
 }
+nav li a{
+    text-decoration: none;
+}
+
+
 
 #slogan {
     color: #D6000D;
@@ -47,22 +52,52 @@ nav li {
 }
 
 
-#button-login{
+#button-login, .bttn-solicitar-orcamento{
     background: #D6000D;
     padding: 0.5rem 2.5rem 0.5rem 2.5rem;
-    border-radius: 14.5%;
+    border-radius: 10px;
     font-size: 18px;
     color: rgb(248, 248, 248);
     line-height: 16px;
     height:2.5rem;
+    margin-left: 1rem;
+    backdrop-filter: blur(4px);
 }
+
+#solicitar-orcamento{
+    display: flex;
+justify-content: center;
+}
+
 
 #div-img {
     display: flex;
 }
 
-
 .img-video-call{
-
     height: 20rem;
+}
+
+.div-span{
+    font-size: 20px;
+    padding: 3.5rem;
+    margin-left: 3rem;
+}
+
+
+h1{
+    font-size: 1rem;
+    font-weight:bolder;
+    padding: 0.25rem;
+    
+}
+h2{
+    font-size: 2.5rem;
+    font-weight:bolder;
+    color: red;
+    padding: 0.25rem;
+}
+
+.bttn-solicitar-orcamento{
+    margin-top: 2rem;
 }
