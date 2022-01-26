@@ -69,6 +69,7 @@ nav li a {
 #solicitar-orcamento {
     display: flex;
     justify-content: center;
+    margin-top: 4rem;
 }
 
 
@@ -105,6 +106,12 @@ h2 {
 .bttn-solicitar-orcamento {
     margin-top: 2rem;
 }
+
+#section-info {
+    margin-top: 8rem;
+}
+
+
 
 .info {
     display: flex;
@@ -155,6 +162,7 @@ h2 {
     padding: 1.125rem;
     align-items: center;
 }
+
 /* 
 .experiencia-cliente::before {
     content: ' ';
@@ -165,3 +173,62 @@ h2 {
 
     height: 100%;
 } */
+
+/*FOOTER*/
+
+.container-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 80px;
+    background: black;
+    color: azure;
+    padding: 4rem 0.5rem;
+
+}
+
+.footer-slogan {
+    color: #fcf6f6;
+    font-size: 2.25rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer-slogan::after {
+    content: ' ';
+    display: inline-block;
+    background: rgb(248, 245, 245);
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+}
+
+.container-footer h1 {
+    padding-bottom: 1rem;
+}
+.div-contato{
+    padding:0;
+    line-height: 2rem;
+}
+
+.div-contato a {
+    color: #d8d8d8;
+    text-decoration: underline;
+}
+
+/* .div-redesSociais{
+    margin: 0 auto;
+} */
+
+.div-redesSociais img{
+height: 30px;
+width: 30px;
+margin-left: 10px;
+
+}
+
+
+
+
+
+
+
