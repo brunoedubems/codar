@@ -12,7 +12,7 @@ header {
     /* max-width: 960px; */
     margin: 0 auto;
     justify-content: space-between;
-    padding: 1rem 1.25rem;
+    padding: 0 1.25rem;
 
 }
 
@@ -57,14 +57,13 @@ nav li a {
 #button-login,
 .bttn-solicitar-orcamento {
     background: #D6000D;
-    padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    padding: 0.25rem 2rem 0.25rem 2rem;
     border-radius: 10px;
     font-size: 18px;
     color: rgb(248, 248, 248);
     line-height: 16px;
     height: 2.5rem;
     margin-left: 1rem;
-    backdrop-filter: blur(4px);
 }
 
 #solicitar-orcamento {
@@ -141,24 +140,28 @@ h2 {
     margin-left: 12rem;
 }
 
-.exp{
-    display: flex;
-
-
-}
-.experiencia-cliente{
-    background: #d8d8d8;
-    border-radius: 6px;
-    padding: 2rem;
+.exp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin: 4rem;
+
 }
 
-.experiencia-cliente::before{
-    content:' ';
+.experiencia-cliente {
+    background: #d8d8d8;
+    height: 200px;
+    width: 400px;
+    border-radius: 6px;
+    padding: 1.125rem;
+    align-items: center;
+}
+/* 
+.experiencia-cliente::before {
+    content: ' ';
     background: #D6000D;
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
 
-height:100%;
-}
+    height: 100%;
+} */
